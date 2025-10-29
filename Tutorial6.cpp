@@ -49,8 +49,8 @@ vector<DMatch> symmetricMatches(const vector<vector<DMatch>>& matches12,
 
 int main() {
     // === 1.1 Charger l'image de référence ===
-    string ref_path = "/home/zaki/Bureau/Data/Mercedes-C-Class.png";
-    string video_path = "/home/zaki/Bureau/Data/videoTuto6.avi";
+    string ref_path = "path.png";
+    string video_path = "path.avi";
 
     Mat ref = imread(ref_path);
     if (ref.empty()) {
